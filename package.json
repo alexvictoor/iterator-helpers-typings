@@ -1,12 +1,11 @@
 {
   "name": "iterator-helpers-typings",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "TypeScript typings for iterator helpers (already available with V8)",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "vitest",
-    "build": "rm -Rf ./dist && tsc -d --outDir ./dist -p tsconfig-prod.json"
+    "test": "vitest"
   },
   "engines": {
     "node": "22.x"
