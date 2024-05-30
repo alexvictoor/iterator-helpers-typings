@@ -1,0 +1,34 @@
+{
+  "name": "iterator-helpers-typings",
+  "version": "1.0.0",
+  "description": "TypeScript typings for iterator helpers (already available with V8)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "rm -Rf ./dist && tsc -d --outDir ./dist -p tsconfig-prod.json"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexvictoor/iterator-helpers-typings.git"
+  },
+  "keywords": [
+    "typescript",
+    "iterator",
+    "tc39",
+    "proposal-iterator-helpers"
+  ],
+  "author": "Alexandre Victoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexvictoor/iterator-helpers-typings/issues"
+  },
+  "homepage": "https://github.com/alexvictoor/iterator-helpers-typings#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
