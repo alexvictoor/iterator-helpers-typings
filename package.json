@@ -1,8 +1,8 @@
 {
   "name": "iterator-helpers-typings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript typings for iterator helpers (already available with V8)",
-  "main": "",
+  "main": "empty.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "vitest"
